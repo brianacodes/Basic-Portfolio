@@ -1,0 +1,128 @@
+/* ========= ALL ELEMENTS, ALL HTMLS =========*/
+
+* {
+    box-sizing: border-box;
+    margin: auto auto; 
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+html {
+    height: 100%;
+}
+body {
+    background-image: url("../images/pipes.png");
+    height: 100%;
+}
+/* ======== ALL HEADERS & FOOTERS ======= */
+
+.Navbar {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.521);
+    margin-top: 15px;
+}
+.NavbarContent {
+    border-bottom: solid red 5px;
+    width: 960px;
+}
+.NavbarName {
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 37.5px;
+    letter-spacing: 0;
+    width: 40%;
+    margin: 0;
+    float: left;
+}
+.NavbarTabs {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    width: 220px;
+    float: right;
+}
+.NavbarTabs a:hover {
+    background-color: white;
+}
+.clearfix {
+    overflow: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.Footer {
+    border-top: solid red 5px;
+    width: 100%;
+    height: 50px;    
+    background-color:rgba(128, 128, 128, 0.521);
+    position: absolute;
+    bottom: 0;
+}
+.FooterContent {
+    width: 960px;
+    text-align: center;
+}
+.CopyrightLabel {
+    width: 960px;
+}
+
+/* =========== ABOUT ME =========== */
+
+.ContentBlock {
+    width: 100%;
+}
+.PageContent {
+    width: 960px;
+    background-color: white;
+    font-size: larger;
+    font-family: 'Lato', sans-serif; 
+}
+#BioPic {
+    width: 155px;
+    height: 150px;
+    float: left;
+    margin-right: 15px;
+}
+.Bio {
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+}
+/* ============== PORTFOLIO ============= */
+
+.Portfolio {
+    width: 960px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;   
+    font-size: large; 
+}
+h1 {
+    margin-bottom: 5px;
+}
+.item {
+    border:1px solid red;
+    width: 320px;
+    height: 50px;
+    margin-bottom: 10px;
+    color: red;
+    font-weight: bolder;
+}
+.item a:hover {
+    background-color: grey;
+}
+  /* ======= CONTACT ======= */
+
+.ContactForm {
+    width: 960px;
+    text-align: center; 
+    font-family: 'Lato', sans-serif;
+}
+#FormBoxes {
+    text-align: center;
+}
+.SubmitButton a:hover {
+    background-color: rgb(196, 196, 196);
+}
